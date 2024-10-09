@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    margin: 20px auto;
+    padding: 10px;
+    color: white;
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    margin: 20px auto;
+    padding: 10px;
+    color: white;
+}
