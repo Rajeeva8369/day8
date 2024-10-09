@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unclickable Chuck Norris</title>
+    <link rel="ex_07" href="ex_07.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="ex_07.js" defer></script>
+</head>
+<body>
+    <div id="app" @mousemove="teleportImage">
+        <img :src="chuckImage" :style="imageStyle" alt="my little poney" />
+    </div>
+</body>
+</html>
